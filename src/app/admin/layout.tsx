@@ -1,12 +1,10 @@
-
-export default function AdminLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+import "./globals.css"
+export default function AdminLayout({ children }: { children: React.ReactNode }) {
   return (
-    <div>
+    <html lang="en">
+      <body className="dark">
         {children}
-    </div>
+      </body>
+    </html>
   );
 }

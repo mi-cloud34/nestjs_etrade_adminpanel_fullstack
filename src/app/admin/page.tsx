@@ -8,7 +8,7 @@ const page = ({
   }>)  => {
   return (
  <DashboardLayout>
-   
+   <div className='bg-red-700'>merhaba</div>
    {children}
  </DashboardLayout>
  

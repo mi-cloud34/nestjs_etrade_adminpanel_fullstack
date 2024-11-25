@@ -4,7 +4,7 @@ const Dashboard=()=>{
    
 
       
-    return <div className="flex">
+    return <div className="flex bg-green-600">
        
      dashboard
     </div>
